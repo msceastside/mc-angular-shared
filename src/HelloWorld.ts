@@ -16,7 +16,7 @@ export class HelloWorld {
     message = "Click Me ...";
 
     onClick() {
-        this.message = "Hello World!";
+        this.message = "Hello Michael!";
         console.log(this.message);
 
     }
