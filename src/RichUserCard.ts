@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-    selector: 'hello-world',
+    selector: 'rich-user-card',
     styles: [`
        h1 {
             color: blue;
