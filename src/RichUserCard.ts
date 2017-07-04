@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
     selector: 'rich-user-card',
@@ -20,8 +20,7 @@ import {Component} from '@angular/core';
                `
 })
 export class RichUserCard {
-
-    name = "Meg Ryan";
+    @Input() name: string = "Meg Ryan";
     title = "Web Developer";
     avatarUrl = "assets/images/avatar3.jpg";
     backgroundUrl = "assets/images/photo2.jpg";
