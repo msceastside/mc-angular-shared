@@ -20,7 +20,7 @@ import {Component, Input} from '@angular/core';
                `
 })
 export class RichUserCard {
-    @Input() name: string = "Meg Ryan";
+    @Input() public name: string = "Meg Ryan";
     title = "Web Developer";
     avatarUrl = "assets/images/avatar3.jpg";
     backgroundUrl = "assets/images/photo2.jpg";
