@@ -9,8 +9,8 @@ import {Component} from '@angular/core';
     `],
     template: `
         <a class="block block-link-hover2" href="javascript:void(0)">
-        <div class="block-content block-content-full text-center bg-image" style="background-image: url('assets/images/photo2.jpg');">
-        <img class="img-avatar img-avatar96 img-avatar-thumb" src="assets/images/avatar3.jpg" alt="">
+        <div class="block-content block-content-full text-center bg-image" style="background-image: url('../assets/images/photo2.jpg');">
+        <img class="img-avatar img-avatar96 img-avatar-thumb" src="../assets/images/avatar3.jpg" alt="">
         </div>
         <div class="block-content block-content-full text-center">
         <div class="font-w600 push-5">{{name}}</div>
