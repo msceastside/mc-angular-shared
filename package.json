@@ -1,6 +1,6 @@
 {
   "name": "mc-angular-shared",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Angular shared components",
   "main": "components.js",
   "scripts": {
