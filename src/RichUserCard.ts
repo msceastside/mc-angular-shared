@@ -20,8 +20,8 @@ import {Component, Input} from '@angular/core';
                `
 })
 export class RichUserCard {
-    @Input() public name: string = "Meg Ryan";
-    title = "Web Developer";
-    avatarUrl = "assets/images/avatar3.jpg";
-    backgroundUrl = "assets/images/photo2.jpg";
+    @Input() name: string;
+    @Input() title: string;
+    @Input() avatarUrl: string = "../assets/images/avatar3.jpg";
+    @Input() backgroundUrl: string = "../assets/images/photo2.jpg";
 }
