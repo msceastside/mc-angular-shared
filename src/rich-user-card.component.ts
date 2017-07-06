@@ -1,4 +1,5 @@
 import {Component, Input} from '@angular/core';
+import {UserCardModel} from './user-card.model';
 
 @Component({
     selector: 'rich-user-card',
@@ -13,15 +14,12 @@ import {Component, Input} from '@angular/core';
         <img class="img-avatar img-avatar96 img-avatar-thumb" src="../assets/images/avatar3.jpg" alt="">
         </div>
         <div class="block-content block-content-full text-center">
-        <div class="font-w600 push-5">{{name}}</div>
-        <div class="text-muted">{{title}}</div>
+        <div class="font-w600 push-5">{{userCard.title1}}</div>
+        <div class="text-muted">{{userCard.title2}}</div>
         </div>
         </a>
                `
 })
-export class RichUserCard {
-    @Input() name: string;
-    @Input() title: string;
-    @Input() avatarUrl: string = "../assets/images/avatar3.jpg";
-    @Input() backgroundUrl: string = "../assets/images/photo2.jpg";
+export class RichUserCardComponent {
+    @Input() userCard: UserCardModel;
 }
