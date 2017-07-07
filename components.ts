@@ -9,8 +9,7 @@ import { UserCardModel } from './src/user-card.model';
         BrowserModule
     ],
     declarations: [
-        RichUserCardComponent,
-        UserCardModel
+        RichUserCardComponent
     ],
     providers: [
     ],
