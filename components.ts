@@ -15,8 +15,9 @@ import { UserCardModel } from './src/user-card.model';
     providers: [
     ],
     exports: [
-        RichUserCardComponent,
-        UserCardModel
+        RichUserCardComponent
     ]
 })
 export class SharedModule { }
+
+export * from './src/user-card.model';
